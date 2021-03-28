@@ -6,4 +6,5 @@ body {
     text-align: center;
     font-size: 12;
     font-weight: bolder;
+    display: block;
 }
