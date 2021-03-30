@@ -1,10 +1,8 @@
 body {
-    background-color: rebeccapurple;
-    margin: 0 10px 0 10px;
     box-sizing: border-box;
-    padding: 12px;
-    text-align: center;
-    font-size: 12;
-    font-weight: bolder;
-    display: block;
+    height: 5000px;
+}
+
+ul {
+    list-style-type: none;
 }
