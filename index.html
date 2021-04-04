@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML - Text Tags</title>
     <link rel="stylesheet" href="./style.css">
+    </style>
 </head>
 <body>
     <h1>Three King's of programming</h1>
@@ -81,5 +82,159 @@
     <h3>Link with JS in button</h3>
     <button onclick="document.location='https://www.youtube.com'">YouTube</button>
 
+    <hr>
+    <h3>Table in HTML</h3>
+
+    <table>
+        <caption>Worker's List</caption>
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td>John</td>
+                <td>Mill</td>
+                <td>john.mill@com.eu</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Kriss</td>
+                <td>Novoselich</td>
+                <td>novosleich@.gmail.com</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Eva</td>
+                <td>Stockton</td>
+                <td>eva_stockton@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <br>
+   <hr>
+   <br>
+   <h3>Forms in HTML</h3>
+   <br>
+   <form action="" method="POST">
+       <label for="name">Name:</label>
+       <br>
+       <input type="text" id="name" placeholder="Your Name:">
+       <br>
+       <label for="email">Email:</label>
+       <br>
+       <input type="email" id="email" placeholder="example@gmail.com">
+       <br>
+       <label for="age">Age:</label>
+       <br>
+       <input type="number" id="age" min="1" max="120">
+       <br>
+       <label for="date">Booking Date:</label>
+       <br>
+       <input type="date" id="date" placeholder="Booking Date">
+       <br>
+       <label for="time">Time:</label>
+       <br>
+       <input type="time" name="" id="time" placeholder="Booking Time">
+       <br>
+       <label for="country">Country:</label>
+       <br>
+       <select name="" id="country">
+           <option value="poland">Poland</option>
+           <option value="germany">Germany</option>
+           <option value="russia">Russia</option>
+       </select>
+       <br>
+       <label for="accept">Accept Regulaions</label>
+       <br>
+       <fieldset>
+           <legend>Accept Regulations</legend>
+           <input type="radio" name="regulation" value="yes" id="accept">Yes
+           <br>
+           <input type="radio" name="regulation" value="no" id="accept_1">No
+           <br>
+       </fieldset>
+       <br>
+       <fieldset>
+           <legend>Something extra</legend>
+           <input type="checkbox" value="gim">Gim
+           <br>
+           <input type="checkbox" value="spa">Spa 
+           <br>
+           <input type="checkbox" value="massage">Massage
+       </fieldset>
+       <br>
+       <label for="file">Send File</label>
+       <br>
+       <input type="file">
+       <br>
+       <label for="message">Info:</label>
+       <br>
+       <textarea name="" id="" cols="25" rows="15" placeholder="Your attention:"></textarea>
+       <br>
+
+
+
+       <label for="password">Password:</label>
+       <br>
+       <input type="password" id="password" placeholder="Your Password">
+       <br>
+       <label for="rep_password">Repeat Password:</label>
+       <br>
+       <input type="password" id="rep_password" placeholder="Repeat Password">
+       <br>
+       <br>
+       <button type="submit" style="margin-right: 5px;">Send Message</button>
+       <button type="reset">Reset</button>
+   </form>
+
+   <br>
+   <hr>
+   <h3>Structural elements in HTML</h3>
+   <header>
+       <nav>
+           <ul>
+               <li class="nav_elements"><a href="#">Home</a></li>
+               <li class="nav_elements"><a href="#">Services</a></li>
+               <li class="nav_elements"><a href="#">About Us</a></li>
+               <li class="nav_elements"><a href="#">Contact</a></li>
+           </ul>
+       </nav>
+   </header>
+   <main>
+     <div style="background-color: cornflowerblue;">
+       <section>
+           <article>
+               <h4>Aricle One</h4>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo sit quasi animi?</p>
+           </article>
+           <article>
+                <h4>Aricle Two</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo sit quasi animi?</p>
+            </article>
+       </section>
+    </div>
+    <div style="background-color: lawngreen;">
+       <section>
+            <article>
+                <h4>Aricle Three</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo sit quasi animi?</p>
+            </article>
+            <article>
+                <h4>Aricle Four</h4>
+                <p>Lorem ipsum dolor sit <span style="font-weight: bolder;">amet, consectetur</span>  adipisicing elit. Nemo sit quasi animi?</p>
+            </article>
+        </section>
+    </div>
+   </main>
+    
+   <footer>&#169; Pawel Zarebski</footer>
+   
 </body>
 </html>

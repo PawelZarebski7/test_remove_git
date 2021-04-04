@@ -6,3 +6,25 @@ body {
 ul {
     list-style-type: none;
 }
+
+caption {
+    background-color: crimson;
+}
+
+th {
+    background-color: darkblue;
+}
+
+td { 
+    background-color: darkgreen;
+}
+
+table {
+    background-color: black;
+    box-shadow: 20px 20px 10px black;
+    margin: 0 auto;
+}
+
+.nav_elements {
+    display: inline-block;
+}
