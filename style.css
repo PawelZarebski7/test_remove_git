@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight&display=swap');
+
 body {
     box-sizing: border-box;
-    height: 5000px;
+    height: 10000px;
 }
 
 ul {
@@ -27,4 +30,17 @@ table {
 
 .nav_elements {
     display: inline-block;
+}
+
+.font-1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.font-2 {
+    font-family: 'Zilla Slab Highlight', cursive;
+
+}
+
+.font-3{
+    font-family: 'Train One', cursive;
 }
